@@ -1,0 +1,11 @@
+.input-wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #666666;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  width: 330px;
+  color: #fcf4e8;
+  position:relative;bottom:9.0rem;left:23rem;
+}

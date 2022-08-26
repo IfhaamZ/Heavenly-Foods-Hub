@@ -1,0 +1,155 @@
+* {
+  font-size: 1rem;
+}
+
+hr {
+  height:5px;
+  background-color: black;
+}
+
+h1 {
+  font-size: 8rem;
+  color:#666666;
+  font-family: Gabriola;
+  text-align: center;
+  text-decoration: underline overline;
+  position:relative; top:2rem;
+}
+
+h2 {
+  font-family: fantasy;
+  font-weight:none;
+  color:lightblue;
+  text-align: center;
+  font-size:3rem;
+  text-decoration: underline overline;
+}
+h3 {
+  font-family: fantasy;
+  font-weight:none;
+  color:lightblue;
+}
+
+#dh1{
+  font-size: 6rem;
+  font-family: Brush Script MT;
+  text-align: center;
+  text-decoration: none;
+}
+
+#ddiv{
+  background-color:#fcf4e8;
+  position:relative;bottom:7rem;
+  margin:0rem 39rem 0rem 39rem
+}
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #666666;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  width: 330px;
+  color: #fcf4e8;
+  position:relative;bottom:18.9rem;left:23rem;
+}
+
+input:focus{
+  background:lightblue;
+}
+
+input {
+  margin: 0rem 0.3rem 0rem 0.3rem;
+  border: none;
+  outline: none;
+  background-color: #fcf4e8;
+  border-radius: 1rem;
+  padding:0.5rem;
+}
+
+#ispace {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position:relative;bottom:4.5rem;
+
+}
+
+::placeholder {
+  color: #666666;
+}
+
+.fa-search {
+  background: #666666;
+  position:relative;left:5rem;
+}
+
+.fa-burger {
+  font-size:4rem;
+
+}
+nav {
+  width: 100%;
+  margin:none;
+  padding: 60px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: #666666;
+  position:relative;top:3rem;
+}
+
+nav ul li {
+  display: inline-block;
+  position:relative;right:2.2rem;
+}
+
+nav ul li a {
+  padding: 14px;
+  text-transform:uppercase;
+  color:#fcf4e8;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: lightblue;
+  color: navy;
+}
+
+#h:hover{
+  opacity:0.8;
+  transition: 0.2s;
+}
+
+.disabled-link{
+  cursor:none;
+  pointer-events: none;
+  background-color:lightblue;
+  color:navy;
+}
+
+p {
+  font-size:1.2rem;
+}
+
+#pbc {
+  background-color:#666666;
+  color:#fcf4e8;
+  padding:5rem;
+  width:70rem;
+  margin-left:10rem;
+  border: 1rem double lightblue;
+}
+
+li{
+  font-size: 1.2rem;
+}
+
+#shr{
+  color:#666666;
+  margin: 0rem 25rem 0rem 25rem;
+}
